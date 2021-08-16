@@ -111,6 +111,7 @@
     <Compile Include="Persistence\Repositories\RadnikRadnoMestoRepository.cs" />
     <Compile Include="Persistence\Repositories\RadnikRepository.cs" />
     <Compile Include="Persistence\Repositories\RadnoMestoRepository.cs" />
+    <Compile Include="Persistence\Repositories\Repository.cs" />
     <Compile Include="Persistence\Repositories\UgovorRepository.cs" />
     <Compile Include="Persistence\UnitOfWork.cs" />
     <Compile Include="Program.cs" />
