@@ -1,0 +1,14 @@
+D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\bin\Debug\Marketshop.exe.config
+D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\bin\Debug\Marketshop.exe
+D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\bin\Debug\Marketshop.pdb
+D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\bin\Debug\EntityFramework.dll
+D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\bin\Debug\EntityFramework.SqlServer.dll
+D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\bin\Debug\EntityFramework.xml
+D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\bin\Debug\EntityFramework.SqlServer.xml
+D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.csprojAssemblyReference.cache
+D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.csproj.CoreCompileInputs.cache
+D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.csproj.CopyComplete
+D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.exe
+D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.pdb
+D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.Migrations.InitialModel.resources
+D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.csproj.GenerateResource.cache
