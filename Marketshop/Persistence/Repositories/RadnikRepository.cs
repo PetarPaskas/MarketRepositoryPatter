@@ -21,7 +21,6 @@ namespace Marketshop.Persistence.Repositories
         public IEnumerable<Radnik> PretraziRadnikePoZanimanju(string zanimanje)
         {
             var radnici = Context.Radnici.Include(r => r.RadnikRadnoMesto.RadnoMesto).ToList();
-
             return radnici.Where(r => r.RadnikRadnoMesto.RadnoMesto.Pozicija == zanimanje);
         }
 
@@ -29,7 +28,9 @@ namespace Marketshop.Persistence.Repositories
         {
             var radnici = Context.Radnici.Include(r => r.RadnikRadnoMesto).ToList();
 
-            return radnici.Where(r => r.RadnikRadnoMesto.ProdavnicaId == idProdavnice);
+            return radnici
+                .Where(r => r.RadnikRadnoMesto.ProdavnicaId == idProdavnice)
+                .OrderBy(r=>r.RadnikRadnoMesto.RadnoMestoId);
         }
 
         public Radnik SveInfrmacijeJednogRadnika(int idRadnika)
