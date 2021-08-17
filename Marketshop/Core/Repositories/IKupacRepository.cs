@@ -9,6 +9,7 @@ namespace Marketshop.Core.Repositories
 {
     interface IKupacRepository : IRepository<Kupac>
     {
-
+        IEnumerable<Kupac> KupciSaNjihovimKupovinama();
+        IEnumerable<Kupac> KupciSaNajviseBodova(int pageSize, int pageIndex);
     }
 }
