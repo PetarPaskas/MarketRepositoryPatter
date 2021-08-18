@@ -10,7 +10,7 @@ namespace Marketshop.Persistence
 {
     class UnitOfWork : IUnitOfWork
     {
-
+        public IGradRepository Gradovi { get; set; }
         public IProdavnicaRepository Prodavnice { get; set; } //
 
         public IKupacRepository Kupci { get; set; } //

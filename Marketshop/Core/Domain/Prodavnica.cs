@@ -11,7 +11,10 @@ namespace Marketshop.Core.Domain
 
     {
         public int Id { get; set; }
+        public int GradId { get; set; }
         public string Adresa { get; set; }
+
+        public Grad Grad { get; set; }
 
         public ICollection<RadnikRadnoMesto> Radnici { get; set; }
         public ICollection<Proizvod> Proizvodi { get; set; }
