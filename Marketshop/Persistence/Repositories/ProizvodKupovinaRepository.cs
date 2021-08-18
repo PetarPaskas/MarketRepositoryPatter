@@ -8,14 +8,13 @@ using Marketshop.Core.Repositories;
 
 namespace Marketshop.Persistence.Repositories
 {
-    class ProizvodAkcijaRepository : Repository<ProizvodAkcija>, IProizvodAkcijaRepository
+    class ProizvodKupovinaRepository : Repository<ProizvodKupovina> ,IProizvodKupovina 
     {
         private MarketContext Context { get { return _context as MarketContext; } }
-        public ProizvodAkcijaRepository(MarketContext context)
+        public ProizvodKupovinaRepository(MarketContext context)
             :base(context)
         {
 
         }
-
     }
 }

@@ -70,6 +70,7 @@
     <Compile Include="Core\Domain\RadnoMesto.cs" />
     <Compile Include="Core\Domain\Ugovor.cs" />
     <Compile Include="Core\IUnitOfWork.cs" />
+    <Compile Include="Core\Repositories\IProizvodKupovinaRepository.cs" />
     <Compile Include="Model\ProizvodKorpa.cs" />
     <Compile Include="Core\Repositories\IAkcijaRepository.cs" />
     <Compile Include="Core\Repositories\IKategorijaRepository.cs" />
@@ -110,6 +111,7 @@
     <Compile Include="Persistence\Repositories\ProdavnicaRepository.cs" />
     <Compile Include="Persistence\Repositories\ProizvodAkcijaRepository.cs" />
     <Compile Include="Persistence\Repositories\ProizvodjacRepository.cs" />
+    <Compile Include="Persistence\Repositories\ProizvodKupovinaRepository.cs" />
     <Compile Include="Persistence\Repositories\ProizvodRepository.cs" />
     <Compile Include="Persistence\Repositories\RadnikRadnoMestoRepository.cs" />
     <Compile Include="Persistence\Repositories\RadnikRepository.cs" />

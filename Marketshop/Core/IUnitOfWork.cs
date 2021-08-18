@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Marketshop.Core
 {
-    interface IUnitOfWork
+    interface IUnitOfWork :IDisposable
     {
+        int SaveChanges();
     }
 }
