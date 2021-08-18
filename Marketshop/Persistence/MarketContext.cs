@@ -49,6 +49,7 @@ namespace Marketshop.Persistence
             modelBuilder.Configurations.Add(new RadnikRadnoMestoConfiguration());
             modelBuilder.Configurations.Add(new RadnoMestoConfiguration());
             modelBuilder.Configurations.Add(new UgovorConfiguration());
+            modelBuilder.Configurations.Add(new GradConfiguration());
 
         }
     }

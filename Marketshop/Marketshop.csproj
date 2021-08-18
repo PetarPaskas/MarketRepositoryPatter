@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Core\Domain\Akcija.cs" />
+    <Compile Include="Core\Domain\Grad.cs" />
     <Compile Include="Core\Domain\JedinicaEnum.cs" />
     <Compile Include="Core\Domain\Kategorija.cs" />
     <Compile Include="Core\Domain\Kupac.cs" />
@@ -70,7 +71,12 @@
     <Compile Include="Core\Domain\RadnoMesto.cs" />
     <Compile Include="Core\Domain\Ugovor.cs" />
     <Compile Include="Core\IUnitOfWork.cs" />
+    <Compile Include="Core\Repositories\IGradRepository.cs" />
     <Compile Include="Core\Repositories\IProizvodKupovinaRepository.cs" />
+    <Compile Include="Migrations\202108180734452_AddedGradTable.cs" />
+    <Compile Include="Migrations\202108180734452_AddedGradTable.designer.cs">
+      <DependentUpon>202108180734452_AddedGradTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model\ProizvodKorpa.cs" />
     <Compile Include="Core\Repositories\IAkcijaRepository.cs" />
     <Compile Include="Core\Repositories\IKategorijaRepository.cs" />
@@ -91,6 +97,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Persistence\EntityConfigurations\AkcijaConfiguration.cs" />
+    <Compile Include="Persistence\EntityConfigurations\GradConfiguration.cs" />
     <Compile Include="Persistence\EntityConfigurations\KategorijaConfiguration.cs" />
     <Compile Include="Persistence\EntityConfigurations\KupacConfiguration.cs" />
     <Compile Include="Persistence\EntityConfigurations\KupovinaConfiguration.cs" />
@@ -105,6 +112,7 @@
     <Compile Include="Persistence\EntityConfigurations\UgovorConfiguration.cs" />
     <Compile Include="Persistence\MarketContext.cs" />
     <Compile Include="Persistence\Repositories\AkcijaRepository.cs" />
+    <Compile Include="Persistence\Repositories\GradRepository.cs" />
     <Compile Include="Persistence\Repositories\KategorijaRepository.cs" />
     <Compile Include="Persistence\Repositories\KupacRepository.cs" />
     <Compile Include="Persistence\Repositories\KupovinaRepository.cs" />
@@ -129,6 +137,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202108150923066_InitialModel.resx">
       <DependentUpon>202108150923066_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108180734452_AddedGradTable.resx">
+      <DependentUpon>202108180734452_AddedGradTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
