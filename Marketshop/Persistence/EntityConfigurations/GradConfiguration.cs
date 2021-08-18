@@ -12,6 +12,8 @@ namespace Marketshop.Persistence.EntityConfigurations
     {
         public GradConfiguration()
         {
+            ToTable("Gradovi");
+
             HasKey(g => g.Id);
 
             HasMany(g => g.Prodavnice)

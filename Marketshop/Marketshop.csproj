@@ -73,6 +73,10 @@
     <Compile Include="Core\IUnitOfWork.cs" />
     <Compile Include="Core\Repositories\IGradRepository.cs" />
     <Compile Include="Core\Repositories\IProizvodKupovinaRepository.cs" />
+    <Compile Include="Migrations\202108180734452_AddedGradTable.cs" />
+    <Compile Include="Migrations\202108180734452_AddedGradTable.designer.cs">
+      <DependentUpon>202108180734452_AddedGradTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model\ProizvodKorpa.cs" />
     <Compile Include="Core\Repositories\IAkcijaRepository.cs" />
     <Compile Include="Core\Repositories\IKategorijaRepository.cs" />
@@ -133,6 +137,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202108150923066_InitialModel.resx">
       <DependentUpon>202108150923066_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108180734452_AddedGradTable.resx">
+      <DependentUpon>202108180734452_AddedGradTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
