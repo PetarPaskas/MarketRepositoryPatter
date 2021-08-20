@@ -77,6 +77,14 @@
     <Compile Include="Migrations\202108180734452_AddedGradTable.designer.cs">
       <DependentUpon>202108180734452_AddedGradTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202108190057443_PopulatingDatabaseInfoInComments.cs" />
+    <Compile Include="Migrations\202108190057443_PopulatingDatabaseInfoInComments.designer.cs">
+      <DependentUpon>202108190057443_PopulatingDatabaseInfoInComments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202108200529414_PopulatingTableWithProizvodi.cs" />
+    <Compile Include="Migrations\202108200529414_PopulatingTableWithProizvodi.designer.cs">
+      <DependentUpon>202108200529414_PopulatingTableWithProizvodi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model\ProizvodKorpa.cs" />
     <Compile Include="Core\Repositories\IAkcijaRepository.cs" />
     <Compile Include="Core\Repositories\IKategorijaRepository.cs" />
@@ -140,6 +148,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202108180734452_AddedGradTable.resx">
       <DependentUpon>202108180734452_AddedGradTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108190057443_PopulatingDatabaseInfoInComments.resx">
+      <DependentUpon>202108190057443_PopulatingDatabaseInfoInComments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108200529414_PopulatingTableWithProizvodi.resx">
+      <DependentUpon>202108200529414_PopulatingTableWithProizvodi.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
