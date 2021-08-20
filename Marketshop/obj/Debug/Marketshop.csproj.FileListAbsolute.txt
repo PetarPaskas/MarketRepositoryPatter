@@ -13,3 +13,5 @@ D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.pdb
 D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.Migrations.InitialModel.resources
 D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.csproj.GenerateResource.cache
 D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.Migrations.AddedGradTable.resources
+D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.Migrations.PopulatingDatabaseInfoInComments.resources
+D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.Migrations.PopulatingTableWithProizvodi.resources
