@@ -17,3 +17,5 @@ D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.Migr
 D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.Migrations.PopulatingTableWithProizvodi.resources
 D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.Migrations.PopulatingRadniciKupciWithDummyData.resources
 D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.Migrations.ConnectingRadniciWithRadnaMesta.resources
+D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.Migrations.PopulatingKupacTable.resources
+D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.Migrations.PopulatingAkcijeTable.resources

@@ -93,6 +93,14 @@
     <Compile Include="Migrations\202108220306125_ConnectingRadniciWithRadnaMesta.designer.cs">
       <DependentUpon>202108220306125_ConnectingRadniciWithRadnaMesta.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202108220426122_PopulatingKupacTable.cs" />
+    <Compile Include="Migrations\202108220426122_PopulatingKupacTable.designer.cs">
+      <DependentUpon>202108220426122_PopulatingKupacTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202108220451151_PopulatingAkcijeTable.cs" />
+    <Compile Include="Migrations\202108220451151_PopulatingAkcijeTable.designer.cs">
+      <DependentUpon>202108220451151_PopulatingAkcijeTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model\ProizvodKorpa.cs" />
     <Compile Include="Core\Repositories\IAkcijaRepository.cs" />
     <Compile Include="Core\Repositories\IKategorijaRepository.cs" />
@@ -168,6 +176,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202108220306125_ConnectingRadniciWithRadnaMesta.resx">
       <DependentUpon>202108220306125_ConnectingRadniciWithRadnaMesta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108220426122_PopulatingKupacTable.resx">
+      <DependentUpon>202108220426122_PopulatingKupacTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108220451151_PopulatingAkcijeTable.resx">
+      <DependentUpon>202108220451151_PopulatingAkcijeTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

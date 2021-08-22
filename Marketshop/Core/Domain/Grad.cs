@@ -12,5 +12,6 @@ namespace Marketshop.Core.Domain
         public string Naziv { get; set; }
 
         public ICollection<Prodavnica> Prodavnice { get; set; }
+        public ICollection<Kupac> Kupci { get; set; }
     }
 }
