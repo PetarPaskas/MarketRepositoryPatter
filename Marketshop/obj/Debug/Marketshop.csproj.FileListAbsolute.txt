@@ -15,3 +15,5 @@ D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.cspr
 D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.Migrations.AddedGradTable.resources
 D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.Migrations.PopulatingDatabaseInfoInComments.resources
 D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.Migrations.PopulatingTableWithProizvodi.resources
+D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.Migrations.PopulatingRadniciKupciWithDummyData.resources
+D:\Misc\TestsAndProj\.NET\Market\Marketshop\Marketshop\obj\Debug\Marketshop.Migrations.ConnectingRadniciWithRadnaMesta.resources

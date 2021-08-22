@@ -85,6 +85,14 @@
     <Compile Include="Migrations\202108200529414_PopulatingTableWithProizvodi.designer.cs">
       <DependentUpon>202108200529414_PopulatingTableWithProizvodi.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202108220244263_PopulatingRadniciKupciWithDummyData.cs" />
+    <Compile Include="Migrations\202108220244263_PopulatingRadniciKupciWithDummyData.designer.cs">
+      <DependentUpon>202108220244263_PopulatingRadniciKupciWithDummyData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202108220306125_ConnectingRadniciWithRadnaMesta.cs" />
+    <Compile Include="Migrations\202108220306125_ConnectingRadniciWithRadnaMesta.designer.cs">
+      <DependentUpon>202108220306125_ConnectingRadniciWithRadnaMesta.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model\ProizvodKorpa.cs" />
     <Compile Include="Core\Repositories\IAkcijaRepository.cs" />
     <Compile Include="Core\Repositories\IKategorijaRepository.cs" />
@@ -154,6 +162,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202108200529414_PopulatingTableWithProizvodi.resx">
       <DependentUpon>202108200529414_PopulatingTableWithProizvodi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108220244263_PopulatingRadniciKupciWithDummyData.resx">
+      <DependentUpon>202108220244263_PopulatingRadniciKupciWithDummyData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202108220306125_ConnectingRadniciWithRadnaMesta.resx">
+      <DependentUpon>202108220306125_ConnectingRadniciWithRadnaMesta.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
