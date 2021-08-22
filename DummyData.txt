@@ -1,0 +1,78 @@
+Prodavnice => Idea
+
+Gradovi => 	1-Sombor, 
+		2-Novi Sad
+
+
+JedinicaEnum =>    g = 1,
+        	   kg = 2,
+        	   ml = 3,
+        	   l = 4
+
+Kategorije =>   1-Voce,
+		2-Povrce,
+		3-Testenine,
+		4-Ulje,
+		5-Jogurt,
+		6-Mleko,
+		7-Sir,
+		8-Sveze meso,
+		9-Sveza riba
+
+Proizvodjac =>  1-Neobjavljeno
+		2-Dijamant
+		3-Carapelli
+		4-Monini
+		5-Beyond
+		6-Barilla
+		7-Danubius
+		8-Dukat
+		9-Imlek
+		10-President,
+		11-Biser
+
+Proizvodi => 	1-Banane
+		2-Grejp crveni
+		3-Jabuke ajdared
+		4-Limun
+		5-Beli luk
+		6-Brokoli
+		7-Crni luk
+		8-Krompir crveni
+		9-Kupus mladi
+		10-Krompir beli
+		11-Suncokretovo ulje dijamant 1L
+		12-Suncokretovo ulje dijamant 5L
+		13-Maslinovo ulje extra devicansko carapelli 1L
+		14-Maslinovo ulje extra devicansko monini 0.5L
+		15-Kokosovo ulje Beyond 310g
+		16-Spagete n.3 barilla 500g
+		17-Spagete n.5 barilla 500g
+		18-Spagete danubis 500g
+		19-Makaroni danubis 400g
+		20-Jogurt dukat 1kg
+		21-Jogurt dukat 1.5kg
+		22-Jogurt balans imlek 1kg
+		23-Jogurt balans imlek 1.5kg
+		24-Mleko dugotrajno bez laktoze 1.5% imlek 1.5L
+		25-Mleko dugotrajno za kafu 3.8% imlek 1L
+		26-Sveze mleko 2.8% dukat 1.5L 
+		27-Sveze mleko 1.5% dukat 1.5L
+		28-Mleko dugotrajno moja kravica 2.8% imlek 1.5L
+		29-Somborska feta President 250g
+		30-Somborska feta President 500g
+		31-Mozzarella pizza Biser 450g
+		32-Edamer 45%mm Biser 1kg
+		33-Gauda President 1kg
+		34-Kackavalj Biser 1kg
+		35-Jagnjetina 1kg
+		35-Juneca rebra 1kg
+		36-Juneci but bez kostiju 1kg
+		37-Cevapi 1kg
+		38-Pilece grudi 1kg
+		39-Svinjetina 1kg
+		40-Brancin 1kg 
+		41-Losos filet 1kg
+		42-Šaran 1kg
+		43-Pastrmka kaliformijska
+
