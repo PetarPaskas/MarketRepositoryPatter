@@ -28,7 +28,11 @@ namespace Marketshop.Persistence.EntityConfigurations
 
             Property(k => k.Bodovi)
                 .IsRequired();
-                
+
+            HasRequired(k => k.Grad)
+                .WithMany(g => g.Kupci)
+                .HasForeignKey(k => k.GradId);
+
         }
     }
 }

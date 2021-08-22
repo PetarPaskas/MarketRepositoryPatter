@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Marketshop.Core;
 using Marketshop.Core.Repositories;
+using Marketshop.Persistence.Repositories;
 
 namespace Marketshop.Persistence
 {
@@ -20,7 +21,7 @@ namespace Marketshop.Persistence
         public IRadnikRepository Radnici { get; set; } //Podesiti Radnik Ugovor ForeignKey
         public IRadnoMestoRepository RadnaMesta { get; set; } //Podesen FKRadnikRadnoMesto
         public IUgovorRepository Ugovori { get; set; } //Staviti da plata mora biti >31k
-        public IRadnoMestoRepository RadnaMestaRadnika { get; set; } //Ne mozes podesiti 1To1 HasForeignKey, wat??
+        public IRadnikRadnoMestoRepository RadnaMestaRadnika { get; set; } //Ne mozes podesiti 1To1 HasForeignKey, wat??
 
         public IProizvodRepository Proizvodi { get; set; } //
         public IProizvodjacRepository Proizvodjaci { get; set; } //
@@ -29,9 +30,25 @@ namespace Marketshop.Persistence
         public IProizvodAkcijaRepository ProizvodiNaAkciji { get; set; } //
 
         private MarketContext _context;
+
         public UnitOfWork(MarketContext context)
         {
             _context = context;
+            Gradovi = new GradRepository(context);
+            Prodavnice = new ProdavnicaRepository(context);
+            Kupci = new KupacRepository(context);
+            Kupovine = new KupovinaRepository(context);
+            KupljeniProizvodi = new ProizvodKupovinaRepository(context);
+            Radnici = new RadnikRepository(context);
+            RadnaMesta = new RadnoMestoRepository(context);
+            Ugovori = new UgovorRepository(context);
+            RadnaMestaRadnika = new RadnikRadnoMestoRepository(context);
+            Proizvodi = new ProizvodRepository(context);
+            Proizvodjaci = new ProizvodjacRepository(context);
+            KategorijeProizvoda = new KategorijaRepository(context);
+            Akcije = new AkcijaRepository(context);
+            ProizvodiNaAkciji = new ProizvodAkcijaRepository(context);
+
         }
         public int SaveChanges()
         {
@@ -39,7 +56,7 @@ namespace Marketshop.Persistence
         }
         public void Dispose()
         {
-            throw new NotImplementedException();
+            _context.Dispose();
         }
     }
 }
